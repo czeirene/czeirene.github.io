@@ -1,0 +1,122 @@
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #494849;
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 0%;
+}
+
+body {
+    font-size: 18px;
+}
+
+.topnav {
+    background-color: #333;
+    position: center;
+}
+
+.topnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 13pt 90px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #A9A9A9;
+    color: black;
+}
+
+.topnav a.active {
+    solid-color: #696969;
+}
+
+form {
+    margin-left : 30vw;
+    border: 5px solid #A9A9A9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 40%;
+    text-align: left;
+    background-color: #A9A9A9;
+    opacity: .6;
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #454545;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+login {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #1a1919;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 30%;
+    border-radius: 10%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 10px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
